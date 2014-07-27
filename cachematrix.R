@@ -40,6 +40,7 @@ cacheSolve <- function(x, ...) {
         dat<-x$get()
         
         ##use the solve function to calculate the inverse
+        ##Computing the inverse of a square matrix can be done with the solve function in R
         matrx<-solve(dat, ...)
         
         ##Set inverse back to cache
